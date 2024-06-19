@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  padding-top: 56px; /* Adjust based on navbar height */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto; /* Let the image adjust height automatically */
+  object-fit: cover; /* Ensures the image covers the box without stretching */
+  object-position: center; /* Center the image within the box */
+}
+
+.feature-image-row2 {
+  width: 100%;
+  height: auto; /* Let the image adjust height automatically */
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 250px; /* Ensures consistent height for team member images */
+  object-fit: cover; /* Ensures the image covers the box without stretching */
+  object-position: center; /* Center the image within the box */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #5e60ce !important;
+}
+
+.nav-link {
+  color: #333 !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #5e60ce !important;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #5e60ce;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #5e60ce;
+  border-color: #5e60ce;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4a4bda;
+  border-color: #4a4bda;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px 0;
+}
+
+#contact h5 {
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
+
+#contact .form-control {
+  margin-bottom: 15px;
+}
+
+#contact .btn-primary {
+  background-color: #5e60ce;
+  border-color: #5e60ce;
+}
+
+#contact .btn-primary:hover {
+  background-color: #4a4bda;
+  border-color: #4a4bda;
+}
+
+/* Sticky Navbar */
+.sticky {
+  box-shadow: 0 4px 2px -2px gray;
+  transition: box-shadow 0.3s;
+}
