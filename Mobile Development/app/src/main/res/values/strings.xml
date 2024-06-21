@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Happyyoubeta</string>
+
+    <!-- Layout Splash Activity Resources String  -->
+    <string name="description_content_splashscreen">Happy You App Opening Image</string>
+
+    <!-- Layout Login Activity Resources String  -->
+    <string name="label_authentication_login">Login</string>
+    <string name="label_authentication_login_button">Press the button to Login</string>
+    <string name="label_authentication_login_question">Dont have an account?</string>
+    <string name="label_authentication_register_with_underline"><u>Register</u></string>
+
+    <!-- Layout Register Activity Resources String  -->
+    <string name="label_authentication_name">Enter Your Name</string>
+    <string name="label_authentication_email">Enter Your Email</string>
+    <string name="label_authentication_password">Enter Your Password</string>
+    <string name="label_authentication_register_button">Press the button to Register</string>
+    <string name="label_authentication_register_question">Already have an account?</string>
+    <string name="label_authentication_login_with_underline"><u>Login</u></string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="post">Post</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string name="what_happening">What is going on?</string>
+    <string name="old_password">Masukkan kata sandi lama</string>
+    <string name="new_password">Masukkan kata sandi baru</string>
+</resources>
+
