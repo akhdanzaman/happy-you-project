@@ -50,6 +50,8 @@ After training, the model was saved for later use. This included saving the mode
 - **Model Architecture**: Saved using `model.save`.
 - **Model Weights**: Saved using `model.save_weights`.
 
+The outputs are in this [folder](https://drive.google.com/drive/folders/101hB-HU4BsIUa5PgThwaGewjb6IC8oEB)
+
 ### Model Serving
 
 To serve the model for real-time inference, the trained model was integrated into a service pipeline. This involved setting up an API using Cloud Run to handle input text and return sentiment predictions.
