@@ -90,7 +90,7 @@ messages = {
 }
 
 # Download the activity.csv file
-activity_csv_url = "https://storage.googleapis.com/happyoumodelbucket/activity.csv"
+activity_csv_url = "https://storage.googleapis.com/happyoumodelbucket******"
 activity_csv_path = 'activity.csv'
 response = requests.get(activity_csv_url)
 with open(activity_csv_path, 'wb') as file:
@@ -100,7 +100,7 @@ with open(activity_csv_path, 'wb') as file:
 activities = pd.read_csv(activity_csv_path)
 
 # Initialize Firestore DB
-db = firestore.Client(project="capstone-api-426212")
+db = firestore.Client(project="capstone-api-*******")
 
 def analyze_text(text):
     inputs = tokenizer(text, return_tensors='tf', truncation=True, padding='max_length', max_length=53)
