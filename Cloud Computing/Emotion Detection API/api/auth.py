@@ -9,10 +9,10 @@ from functools import wraps
 auth = Blueprint('auth', __name__)
 
 # Initialize Firestore DB
-db = firestore.Client(project="capstone-api-426212")
+db = firestore.Client(project="capstone-api-*****")
 
 # Secret key for JWT
-SECRET_KEY = "YOUR_SECRET_KEY"
+SECRET_KEY = "*******"
 
 @auth.route('/register', methods=['POST'])
 def register():
